@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,14 +24,18 @@
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">Nome do Produto:</span>
         <input type="text" class="form-control" placeholder="Detergente" id="nome">
-      
+      </div>
+      <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">Quantidade do Produto:</span>
         <input type="text" class="form-control" placeholder="0" id="quantidade">
-
+      </div>
+      <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">Preço do Produto:</span>
         <span class="input-group-text">R$</span>
         <input type="text" class="form-control" placeholder="00,00" id="preco">
-        <input class="btn btn-primary" type="button" value="Adicionar" onclick="AdicionaLinha()">
+      </div>
+      <div class="input-group mb-3">
+        <input class="btn btn-primary" type="button" value="Adicionar" onclick="AdicionaLinha()" style="width: 100%;">
       </div>
 
     <div class="input-group mb-3">
