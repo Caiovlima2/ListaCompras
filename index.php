@@ -52,7 +52,6 @@
                 <th scope="col">Preço</th>
                 <th scope="col">Quantidade</th>
                 <th scoope="col">Total Produto</th>
-                <th scope="col">Editar Linha</th>
                 <th scope="col">Remover Linha</th>
               </tr>
             </thead>
@@ -132,7 +131,6 @@
             var celula4 = linha.insertCell(3);
             var celula5 = linha.insertCell(4);
             var celula6 = linha.insertCell(5);
-            var celula7 = linha.insertCell(6);
 
             var dados = geraValIns();
 
@@ -141,8 +139,7 @@
             celula3.innerHTML = dados[2];
             celula4.innerHTML = dados[3];
             celula5.innerHTML = dados[4];
-            celula6.innerHTML = dados[5];
-            celula7.innerHTML = "<button type='button' class='btn btn-outline-danger' onclick='removeLinha(this)'>x</button>";
+            celula6.innerHTML = "<button type='button' class='btn btn-outline-danger' onclick='removeLinha(this)'>x</button>";
 
           }
 
